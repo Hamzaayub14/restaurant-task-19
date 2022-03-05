@@ -1,0 +1,399 @@
+body{
+    font-family:"Google Sans", Roboto, arial, sans-serif;
+ margin: 0;  
+ padding: 0;
+}
+.header{
+    background-image: url(Bg.png);
+    
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed; 
+  background-attachment: fixed;
+  padding-bottom: 10%;
+  
+}
+
+.logo{
+    display: flex;
+    justify-content:space-evenly;
+}
+.navbar i{
+    color: #A5FF4B;
+}
+.navbar button{
+    border: none;
+    color: #f0f0f0;
+    background: transparent;
+  
+    
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f0f0f0;
+}
+
+.heading h1{
+    font-family: Roboto, arial, sans-serif ;
+    font-size: 4em;
+    text-align: center;
+    overflow-wrap: break-word;
+    
+}
+.headingg{
+    width: 50%;
+}
+.heading img{
+    color: #f0f0f0;
+}
+.fbuttons{
+display: flex;
+  justify-content: center;
+  margin-top: 1%;
+   
+}
+.headbuttons{
+    display: flex;
+    justify-content: center;
+}
+.headbuttons button{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+
+   
+    width: 10rem;
+    height:3rem;
+    
+}
+.buttton button{
+    border: 1px solid black;
+    color: #f0f0f0;
+    background: rgba(15, 15, 15,0.5);
+    margin-right: 3rem;
+}
+.buttonn button{
+    border: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    background: rgba(255, 255,255,0.3);
+}
+.food{
+    background-color: rgba(143, 142, 142, 0.5);
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food h1{
+    font-size: 250%;
+   text-align: center;
+   color: #A5FF4B;
+}
+.food p{
+    text-align: center;
+}
+.rightfood{
+    width: 30%;
+    text-align: center;
+}
+
+
+.fine{
+    background-image: url(bg5.png);
+    background-attachment: fixed;
+        display: flex;
+        justify-content: end;
+        padding: 4em 5em;
+}
+.box{
+   background: rgba(0, 0, 0, 0.4);
+   width: 35%;
+
+   text-align: center;
+   padding: 5% 0;
+   
+}
+.box h1{
+    color: #f0f0f0;
+}
+.box p{
+color: #f0f0f0;
+font-size: 1.2em;
+}
+.boximg img{
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+}
+.menu{
+    background-color: rgba(112, 111, 111, 0.5);
+ 
+    color: #bbfa7d;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    
+    
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #A5FF4B;
+    
+}
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #A5FF4B;
+}
+.menu3{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #A5FF4B;
+}
+.headingg{
+    text-align: center;
+    width: 100%;
+    
+}
+.menu h3{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+.menu p{
+ 
+    font-size: 90%; 
+}
+.menu h1{
+    font-size: 200%;
+    text-align: center;
+}
+
+.reviews{
+    background-image: url(bg2.png);
+    background-attachment: fixed;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed; 
+    
+}
+.innerreview{
+    background: rgba(0, 0, 0, 0.4);
+   width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+   padding: 5% 2%;
+   
+}
+.reviews h1{
+    color: #f0f0f0;
+}
+.reviews p{
+    color: #f0f0f0;
+    font-size: large;
+}
+.bookfood{
+  display: flex;
+    gap: 1em;
+
+}
+.book{
+    background-color: rgba(143, 142, 142, 0.5);
+    height: 100%;
+    width: auto;
+    align-items: center;
+    display: flex;
+    padding:10%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.book h1{
+    color: #A5FF4B;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+   
+}
+.nameee{
+    display: flex;
+    flex-direction: row;
+}
+.parag{
+   
+   text-align: center;
+   padding: 0 6.4rem;
+}
+.foodim{
+    display: flex;
+    justify-content: space-between;
+}
+.butt input{
+    background-color: #84d632;
+    color: #f0f0f0;
+    margin: 1em;
+    border: none;
+}
+::placeholder {
+    font-style: italic;
+  }
+.danumber p{
+    font-style: italic;
+}
+.overall{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.danumber{
+    margin:1em;
+}
+.inputs label{
+    color: #A5FF4B;
+   display: flex;
+   text-align: center;
+}
+.danumber select{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(26, 26, 26);
+padding: 2em;
+   
+}
+.footer h1{
+    color: #f0f0f0;
+
+}
+.footer p{
+    color: #f0f0f0;
+}
+.footer i{
+    color: #f0f0f0;
+}
+.footer img{
+    color:#f0f0f0;
+}
+.about{
+    width: 30%;
+    text-align: center;
+}
+.aboutt{
+    text-align: center;
+}
+.open{
+text-align: center;
+}
+.location{
+    
+    text-align: center;
+}
+.menuu{
+    display: none;
+
+}
+
+@media screen and(max-width:700px) 
+{.menu{
+    display: flex;
+    flex-direction: column;
+}
+}@media screen and (max-width: 824px) {
+    .food{
+        background-color: rgba(143, 142, 142, 0.5);
+        
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fine{
+        background-image: url(bg5.png);
+        
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+    }
+    .box{
+        background: rgba(0, 0, 0, 0.4);
+        width: 60%;
+     
+        text-align: center;
+        padding: 5% 0;
+        
+     }
+     .menu{
+    background-color: rgba(112, 111, 111, 0.5);
+ 
+    color: #bbfa7d;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    
+    
+}.book{
+    background-color: rgba(143, 142, 142, 0.5);
+    height: 100%;
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding:5em;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.bookfood{
+    display: inline;
+}
+.overall
+    {
+        padding: 1em;
+        
+        align-items: center;
+        width: 50%;   
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        width: 100%;
+    }
+    .navbar li{
+        list-style: none;
+        display: list-item;
+       
+      
+    }
+   .navba{
+    display: none;
+    }
+    .menuu{
+        float: right;
+        display: block;
+    
+    }
+  }
