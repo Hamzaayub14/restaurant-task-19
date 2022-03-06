@@ -16,8 +16,7 @@
         </div>
         <div class="navbar">
             <div class="menuu">
-          <button id="men"
-          onclick="document.getElementById('navbar').style.display='block'"><i class="fa-solid fa-bars"></i> Menu </button></div>
+          <button id="men"><i class="fa-solid fa-bars"></i> Menu </button></div>
         
             <ul  class="navba"
             id="navbar">
@@ -79,7 +78,10 @@
             <img src="image2.png" alt="bread">
         </div></div>
     </section>
+   <section class="menu9">
+       <section class="menulast">
     <section class="menu">
+        
        <div>
            <div class="headingg"> <h1>
                 Appetisers
@@ -173,8 +175,10 @@
                  
               </div>
               <p>Lorem ipsum dolor sit amet.</p>
-               </div> <div>
-    </section>
+               </div> 
+               
+    </section></section></section>
+</div>
     <section>
         <div class="reviews">
             <div class="innerreview">
@@ -186,7 +190,8 @@
         </div>
         <div><p>-food inc, New York</p></div></div>
     </section>
-    <section class="book">   
+    <section class="book">  
+        <section class="bookkk"> 
         <div class="bookfood">
 
             <div class="imga">
@@ -232,7 +237,7 @@
         </div>
 
            
-    
+    </section>
     </section>
     <section class="footer">
         <div class="about">
@@ -265,7 +270,16 @@
         </div>
     </section>
     <script>
-
+        let btn =document.getElementById("men");
+      
+        btn.onclick = function(){
+         if (navbar.style.display=="block"){
+             navbar.style.display = "none";
+         }
+         else{
+            navbar.style.display = "block";
+         }
+        }
     </script>
 </body>
 </html>

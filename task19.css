@@ -98,7 +98,7 @@ display: flex;
     text-align: center;
 }
 .bg{
-background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8));
+background-image: linear-gradient(rgba(206, 206, 206, 0.98),rgba(206, 206, 206, 0.98));
 width: 100%;
 display: flex;
 justify-content: center;
@@ -136,16 +136,22 @@ font-size: 1.2em;
     height: 5em;
     border-radius: 100%;
 }
+.menulast{
+    background-image: linear-gradient(rgba(206, 206, 206, 0.98),rgba(206, 206, 206, 0.98));
+    width: 100%;
+   display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    
+    
+}
 .menu{
-    background-color: rgba(112, 111, 111, 0.5);
- 
-    color: #bbfa7d;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    gap: 3em;
-    
-    
+    color:#A5FF4B;
+}
+.menu9{
+    background-image: url(pattern.png);
+    width: 100%;
+   
 }
 .menu1{
     display: flex;
@@ -217,14 +223,22 @@ font-size: 1.2em;
 
 }
 .book{
-    background-color: rgba(143, 142, 142, 0.5);
+ background-image: url(pattern.png);
     height: 100%;
     width: auto;
     align-items: center;
     display: flex;
-    padding:10%;
+    
     justify-content: space-evenly;
     text-align: center;
+}
+.bookkk{
+    background-image: linear-gradient(rgba(206, 206, 206, 0.98),rgba(206, 206, 206, 0.98));
+    width: 100%;
+   display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    padding: 5em;
 }
 .book h1{
     color: #A5FF4B;
@@ -319,7 +333,7 @@ text-align: center;
 }
 
 @media screen and(max-width:700px) 
-{.menu{
+{.menulast{
     display: flex;
     flex-direction: column;
 }
@@ -353,7 +367,7 @@ text-align: center;
         padding: 5% 0;
         
      }
-     .menu{
+     .menulast{
     background-color: rgba(112, 111, 111, 0.5);
  
     color: #bbfa7d;
@@ -365,15 +379,21 @@ text-align: center;
     
     
 }.book{
-    background-color: rgba(143, 142, 142, 0.5);
+    background-image: url(pattern.png);
     height: 100%;
     width: auto;
-    align-items: center;
+    
     display: flex;
-    flex-direction: column;
-    padding:5em;
+
+    align-items: center;
     justify-content: space-evenly;
     text-align: center;
+}
+.bookkk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .bookfood{
     display: inline;
