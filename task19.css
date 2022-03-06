@@ -1,11 +1,13 @@
-body{
-    font-family:"Google Sans", Roboto, arial, sans-serif;
- margin: 0;  
- padding: 0;
-}
+
+html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+    margin: 0;
+  }
 .header{
     background-image: url(Bg.png);
-    
+    width: auto;
    background-repeat: no-repeat;
   background-size: cover;
   background-position: fixed; 
@@ -142,16 +144,17 @@ font-size: 1.2em;
    display: flex;
     justify-content: space-around;
     background-size: cover;
-    
+   
     
 }
 .menu{
     color:#A5FF4B;
+    margin: 5%;
 }
 .menu9{
     background-image: url(pattern.png);
     width: 100%;
-   
+
 }
 .menu1{
     display: flex;
@@ -338,6 +341,19 @@ text-align: center;
     flex-direction: column;
 }
 }@media screen and (max-width: 824px) {
+    .header{
+        background-image: url(Bg.png);
+      
+       background-repeat: no-repeat;
+      background-size: cover;
+      background-position: fixed; 
+      background-attachment: fixed;
+      padding-bottom: 10%;
+        
+    height: 100%;
+    width: auto;
+    text-align: center;
+    }
     .food{
      
         background-image: url(pattern.png);
@@ -388,6 +404,7 @@ text-align: center;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+    
 }
 .bookkk{
     display: flex;
