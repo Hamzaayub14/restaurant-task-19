@@ -82,9 +82,8 @@ display: flex;
     background: rgba(255, 255,255,0.3);
 }
 .food{
-    background-color: rgba(143, 142, 142, 0.5);
-
-   
+    background-image: url(pattern.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +96,11 @@ display: flex;
 }
 .food p{
     text-align: center;
+}
+.bg{
+background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8));
+display: flex;
+justify-content: center;
 }
 .rightfood{
     width: 30%;
@@ -319,7 +323,7 @@ text-align: center;
     flex-direction: column;
 }
 }@media screen and (max-width: 824px) {
-    .food{
+    .bg{
         background-color: rgba(143, 142, 142, 0.5);
         
        
