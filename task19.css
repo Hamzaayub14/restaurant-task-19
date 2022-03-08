@@ -6,10 +6,12 @@ html,
     margin: 0;
     
   }
+  body img{
+      max-width: 100%;
+  }
 .header{
     background-image: url(Bg.png);
-    width: auto;
-   background-repeat: no-repeat;
+    
   background-size: cover;
   
   padding-bottom: 10%;
@@ -114,8 +116,14 @@ display: flex;
 justify-content: center;
 }
 .rightfood{
-    width: 30%;
+    max-width: 30%;
     text-align: center;
+}
+
+.bg img{
+    
+    max-width: 100%;
+    
 }
 
 
@@ -149,19 +157,22 @@ font-size: 1.2em;
 .menulast{
     background-image: linear-gradient(rgba(206, 206, 206, 0.98),rgba(206, 206, 206, 0.98));
     width: 100%;
-   display: flex;
+    display: flex;
     justify-content: space-around;
     background-size: cover;
+
    
     
 }
 .menu{
     color:#CC9900;
-    margin: 5%;
+    margin: 2rem;
+   
 }
 .menu9{
     background-image: url(pattern.png);
     width: 100%;
+   
 
 }
 .menu1{
@@ -195,7 +206,8 @@ font-size: 1.2em;
     font-size: 90%; 
 }
 .menu h1{
-    font-size: 200%;
+    font-size: 2rem;
+    margin: 0;
     text-align: center;
 }
 
@@ -345,12 +357,7 @@ text-align: center;
 
 }
 
-@media screen and(max-width:700px) 
-{.menulast{
-    display: flex;
-    flex-direction: column;
-}
-}@media screen and (max-width: 824px) {
+@media screen and (max-width: 824px) {
     .header{
         background-image: url(Bg.png);
       
@@ -393,18 +400,7 @@ text-align: center;
         padding: 5% 0;
         
      }
-     .menulast{
-        background-image: linear-gradient(rgba(206, 206, 206, 0.98),rgba(206, 206, 206, 0.98));
- 
-    color: #CC9900;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3em;
-    
-    
-}.book{
+.book{
     background-image: url(pattern.png);
     height: 100%;
     width: auto;
@@ -419,7 +415,7 @@ text-align: center;
 .bookkk{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+align-items: center;
     align-items: center;
 }
 .bookfood{
@@ -437,12 +433,23 @@ text-align: center;
    margin: 10% 20%;
    
 }
+
+.menulast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(206, 206, 206, 0.98),rgba(206, 206, 206, 0.98));
+ 
+    color: #CC9900;
+    
+   
+}
 .overall
     {
         padding: 1em;
         
         align-items: center;
-        width: 50%;   
+        width: auto;   
     }
     .footer{
         display: flex;
