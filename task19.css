@@ -119,7 +119,9 @@ justify-content: center;
     max-width: 30%;
     text-align: center;
 }
-
+.rightfood h1{
+    width: 100%;
+}
 .bg img{
     
     max-width: 100%;
