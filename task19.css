@@ -4,24 +4,30 @@ html,
     width:100%;
     overflow-x:hidden;
     margin: 0;
+    
   }
 .header{
     background-image: url(Bg.png);
     width: auto;
    background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed; 
-  background-attachment: fixed;
+  
   padding-bottom: 10%;
+  
   
 }
 
 .logo{
     display: flex;
     justify-content:space-evenly;
+    background-image: url(bgSHADOW.png);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
 }
 .navbar i{
-    color: #A5FF4B;
+    color: #CC9900;
 }
 .navbar button{
     border: none;
@@ -39,6 +45,7 @@ html,
     flex-direction: column;
     align-items: center;
     color: #f0f0f0;
+    
 }
 
 .heading h1{
@@ -46,6 +53,7 @@ html,
     font-size: 4em;
     text-align: center;
     overflow-wrap: break-word;
+    margin-top: 10rem;
     
 }
 .headingg{
@@ -94,7 +102,7 @@ display: flex;
 .food h1{
     font-size: 250%;
    text-align: center;
-   color: #A5FF4B;
+   color: #CC9900;
 }
 .food p{
     text-align: center;
@@ -113,7 +121,7 @@ justify-content: center;
 
 .fine{
     background-image: url(bg5.png);
-    background-attachment: fixed;
+    background-size: cover;
         display: flex;
         justify-content: end;
         padding: 4em 5em;
@@ -148,7 +156,7 @@ font-size: 1.2em;
     
 }
 .menu{
-    color:#A5FF4B;
+    color:#CC9900;
     margin: 5%;
 }
 .menu9{
@@ -159,18 +167,18 @@ font-size: 1.2em;
 .menu1{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #A5FF4B;
+    border-bottom: 1px solid #CC9900;
     
 }
 .menu2{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #A5FF4B;
+    border-bottom: 1px solid #CC9900;
 }
 .menu3{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #A5FF4B;
+    border-bottom: 1px solid #CC9900;
 }
 .headingg{
     text-align: center;
@@ -193,24 +201,26 @@ font-size: 1.2em;
 
 .reviews{
     background-image: url(bg2.png);
-    background-attachment: fixed;
-    height: 50em;
+   
+    
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed; 
+  
     
 }
 .innerreview{
     background: rgba(0, 0, 0, 0.4);
-   width: 35%;
+  height: auto;
+  width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
    text-align: center;
-   padding: 5% 2%;
+   padding: 4rem 2rem;
+   margin: 10% 35%;
    
 }
 .reviews h1{
@@ -244,7 +254,7 @@ font-size: 1.2em;
     padding: 5em;
 }
 .book h1{
-    color: #A5FF4B;
+    color: #CC9900;
 }
 .inputs{
     display: flex;
@@ -267,7 +277,7 @@ font-size: 1.2em;
     justify-content: space-between;
 }
 .butt input{
-    background-color: #84d632;
+    background-color: #CC9900;
     color: #f0f0f0;
     margin: 1em;
     border: none;
@@ -289,7 +299,7 @@ font-size: 1.2em;
     margin:1em;
 }
 .inputs label{
-    color: #A5FF4B;
+    color: #CC9900;
    display: flex;
    text-align: center;
 }
@@ -362,7 +372,7 @@ text-align: center;
        
     }
     .bg{
-        background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8));
+     
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -384,9 +394,9 @@ text-align: center;
         
      }
      .menulast{
-    background-color: rgba(112, 111, 111, 0.5);
+        background-image: linear-gradient(rgba(206, 206, 206, 0.98),rgba(206, 206, 206, 0.98));
  
-    color: #bbfa7d;
+    color: #CC9900;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -414,6 +424,18 @@ text-align: center;
 }
 .bookfood{
     display: inline;
+}
+.innerreview{
+    background: rgba(0, 0, 0, 0.4);
+  height: auto;
+  width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+   padding: 4rem 2rem;
+   margin: 10% 20%;
+   
 }
 .overall
     {
