@@ -1,11 +1,4 @@
 
-html { 
-    background: url(images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 html,
   body{
     width:100%;
@@ -20,8 +13,6 @@ html,
     background-image: url(Bg.png);
     
   background-size: cover;
-
-
   
   padding-bottom: 10%;
   
@@ -483,4 +474,11 @@ align-items: center;
         display: block;
     
     }
+  }
+  @media screen and (max-width:425px) {
+      .header{
+          background-attachment: scroll;
+          background-size: cover;
+      }
+      
   }
